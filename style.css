@@ -1,0 +1,26 @@
+
+body	{
+	background-color: rgba(247, 237, 212, 1);
+	font-family: 'Roboto', sans-serif;
+	margin-left: 20px;
+}
+
+h1 {
+	font-family: 'BioRhyme', serif;
+	color: rgba(42, 129, 162, 1);
+}
+
+ul{
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	line-height: 2em;
+
+}
+
+.done {
+	text-decoration-line: line-through;
+}
+
