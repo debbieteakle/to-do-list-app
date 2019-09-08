@@ -1,6 +1,5 @@
 # to-do-list-app
 DOM exercise from The Complete Web Developer in 2019: Zero to Mastery (Udemy course)
-* create static page - unordered list with text input and button
 * user can add items to the list by clicking the add button
 * user can add items to the list by clicking enter
 * user cannot add empty items to the list
