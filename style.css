@@ -1,13 +1,31 @@
 
+html { 
+  background: url(images/background.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  background-color: rgba(247, 237, 212, 1);
+}
+
+
 body	{
-	background-color: rgba(247, 237, 212, 1);
 	font-family: 'Roboto', sans-serif;
-	margin-left: 20px;
+	color: rgb(43, 55, 25);
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.main {
+	width: 300px;
+	background: rgb(240, 243, 246, 0.5);
+	padding: 1em;
+	min-height: 320px;
+	border-radius: 1em;
+	margin: auto;
 }
 
 h1 {
 	font-family: 'BioRhyme', serif;
-	color: rgba(42, 129, 162, 1);
+	font-size: 34px;
+	margin: 5px 0;
 }
 
 ul{
@@ -17,6 +35,37 @@ ul{
 li {
 	list-style-type: none;
 	line-height: 2em;
+
+}
+
+input {
+    border: 2px solid white; 
+    background: rgb(226, 221, 149, 0.5);
+    border-radius: 0.5em; 
+    padding: 5px;
+    margin: 0 0 10px 0;
+    width: 220px;
+    font-size: 18px;
+    font-style: italic;
+    vertical-align: top;
+}
+
+#add {
+	height: 35px;
+	background-color: rgb(108, 156, 28);
+	border-radius: 0.5em;
+	border: 2px solid white;
+	color: white;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+.delete {
+	margin-left: 20px;
+	background-color: rgb(226, 221, 149);
+	border-radius: 0.5em;
+	border: none;
+	color: rgb(43, 55, 25);
 
 }
 

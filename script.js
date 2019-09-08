@@ -11,7 +11,7 @@ function inputLength(){
 function createDeleteButton(){
 	var deleteButton = document.createElement("button");
 	deleteButton.classList.add("delete");
-	deleteButton.innerText= "Delete";
+	deleteButton.innerText= "X";
 	return deleteButton;
 }
 
